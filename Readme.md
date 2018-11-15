@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/RuntimeBindingToMdbDatabase/Form1.cs) (VB: [Form1.vb](./VB/RuntimeBindingToMdbDatabase/Form1.vb))
+* [Program.cs](./CS/RuntimeBindingToMdbDatabase/Program.cs) (VB: [Program.vb](./VB/RuntimeBindingToMdbDatabase/Program.vb))
+<!-- default file list end -->
 # How to programmatically bind a report to an MDB file using a SelectQuery
 
 
