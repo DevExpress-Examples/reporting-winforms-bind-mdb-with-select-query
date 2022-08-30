@@ -22,9 +22,10 @@ private SqlDataSource BindToData() {
     // Create a SELECT query.
     // Join the Categories and Products table by the CategoryID column.  
     // Return the list of categories and the number of products in each category.  
-    // Sort the categories by the number of products in them.  
-    // The included categories must contain a specific number of products. 
-    // The chain ends with calling the Build method accepting the query name as a parameter. 
+    // Sort the categories by the number of products they contain.  
+    // The filtered categories contain a specific number of products. 
+    // Call the Build method with the query name as a parameter
+    // to end the chain of methods. 
     SelectQuery query = SelectQueryFluentBuilder
         .AddTable("Categories")
         .SelectColumn("CategoryName")
