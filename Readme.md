@@ -3,8 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T437883)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to Bind a Report to a Microsoft Access Database Using SelectQuery in Code
-
+# Reporting for WinForms - How to Bind a Report to a Microsoft Access Database Using SelectQuery in Code
 
 This example creates the data source that retrieves data from an .MDB file using the SQL query created in code, and displays data in a simple report created at runtime.
 
@@ -14,7 +13,7 @@ A report is the [XtraReport](https://docs.devexpress.com/XtraReports/DevExpress.
 
 Use the report's [DataSource](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReportBase.DataSource) and [DataMember](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReportBase.DataMemeber) properties to assign the data source to the report.
 
-## Files to Look At
+## Files to Review
 
 * [Form1.cs](CS/RuntimeBindingToMdbDatabase/Form1.cs) (VB: [Form1.vb](VB/RuntimeBindingToMdbDatabase/Form1.vb))
 
